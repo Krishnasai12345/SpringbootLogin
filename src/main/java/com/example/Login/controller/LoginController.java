@@ -48,7 +48,7 @@ public class LoginController {
 	@GetMapping("/checkUser")
 	public boolean checkUser(@RequestBody Login user)
 	{
-		System.out.print(user);
+//		System.out.print(user);
 		return service.checkUser(user);
 	}
 	
